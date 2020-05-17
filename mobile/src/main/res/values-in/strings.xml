@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tab_mainland">Mainland</string>
+    <string name="tab_island">Island</string>
+    <string name="tab_discovery">Discovery</string>
+
+    <string name="status_alive">Aktif</string>
+    <string name="status_frozen">Bekukan</string>
+    <string name="status_disabled">Nonaktifkan</string>
+    <string name="status_appendix_system">Sistem</string>
+    <string name="status_appendix_critical">Kritis</string>
+    <string name="status_appendix_cloned">Kloning</string>
+    <string name="status_appendix_exclusive">Eksklusif</string>
+
+    <string name="featured_button_enable">Aktifkan</string>
+    <string name="featured_button_disable">Nonaktifkan</string>
+    <string name="featured_button_setup">Pengaturan</string>
+    <string name="featured_button_install">Pasang</string>
+    <string name="featured_file_shuttle_title">Pengiriman file</string>
+    <string name="featured_file_shuttle_description">File Shuttle provides cross-border file access and makes managing files inside Island much easier. It requires manual permission granting with ADB via USB-connected PC to activate.</string>
+    <string name="featured_fx_title">FX File Explorer</string>
+    <string name="featured_fx_description">File Shuttle of Island provides cross-border file access via Android \"Storage Access Framework\". But not all apps in the wild (even some popular file manage apps) support SAF.\n\nFX File Explorer has full support for SAF, just clone and launch it inside Island, select \"Connect to Storage\" in drop-down menu. The File Shuttle of Island is in the side menu.</string>
+    <string name="featured_adb_secure_title">Kemananan ADB</string>
+    <string name="featured_adb_secure_island_title">ADB Secure (for Island space only)</string>
+    <string name="featured_adb_secure_description">Restrict ADB (Android Debugging Bridge) shell from executing dangerous commands (install APK, change settings and etc.).\nIf "God mode" is activated, this could protect the whole device (including sneaky app installation via USB cable).</string>
+    <string name="featured_god_mode_title">God Mode</string>
+    <string name="featured_god_mode_description">\"God mode\" is a special mode of Island for advanced users, to help you take control of ALL apps (in both island and mainland). So you can freeze unwanted apps without root.</string>
+    <string name="featured_greenify_title">Greenify</string>
+    <string name="featured_greenify_description">Automatically freeze selected apps if not in active use, after screen goes off.</string>
+    <string name="featured_icebox_title">Ice Box</string>
+    <string name="featured_icebox_description">Easy and pleasant app launching experience for frozen apps in mainland. (Launching Island apps are not yet supported by Ice Box)</string>
+    <string name="featured_appops_title">App Ops</string>
+    <string name="featured_appops_description">Island is incapable to block apps from accessing device-level data (e.g. IMEI, SMS). AppOps is a powerful tool to selectively block such accesses gracefully from specified apps.</string>
+    <string name="featured_coolapk_title">CoolApk</string>
+    <string name="featured_coolapk_description">Upgrade frozen apps easily, no need to unfreeze them first. (\"Show hidden apps\" must be enabled in the \"labs settings\" of CoolApk)\n\nTo upgrade apps solely installed in Island, you still need to use the clone of CoolApk inside Island.</string>
+
+    <string name="setup_profile_welcome">Selamat datang</string>
+    <string name="setup_island_intro">\"Island\" is a sandbox environment to clone selected apps and isolate them from accessing your personal data
+outside (including call logs, contacts and etc) even if permissions are granted.
+\n\nCloned app runs parallel aside from the installed one with its separate copy of app data. It can also be frozen on demand, with launcher icon
+vanished and its background behaviors completely blocked.
+\n\nBy creating the sandbox environment, you authorize Island to act as device administrator of \"Android for Work\", with the privilege to manage
+the sandbox environment. Island never collect data related to your privacy, please read our privacy policy on Google Play Store for more details.</string>
+    <string name="setup_accept">Terima</string>
+    <string name="setup_error_multi_user_not_allowed">Sorry, the required \"Multi-User\" feature is not supported on this device.</string>
+    <string name="setup_error_managed_profile_not_supported">Sorry, the required feature \"Managed Profile\" is not supported on this device.</string>
+    <string name="setup_error_provisioning_incomplete">Island setup is incomplete, the previous attempt might be unsuccessful.\n\nIf your device ROM or 3rd-party tool enforce auto-start control (or similar background-restriction functionality), please whitelist Island in related settings, then continue the setup.</string>
+    <string name="setup_error_managed_device">Sorry, Island cannot be setup due to device currently being managed by <b>%1$s</b>.</string>
+    <string name="setup_error_other_work_profile">Sorry, \"Work profile\" was setup on this device already by other app. To use Island, the existent Work Profile must be removed first in system Settings - Accounts.</string>
+    <string name="setup_error_missing_managed_provisioning">Sorry, the required \"Android for Work\" feature may not be fully supported on your device.</string>
+    <string name="setup_solution_for_cancelled_provision">Trouble setting-up Island?\n\nIf you got error message during the setup procedure of Island, please continue to open the online troubleshooting guide with suggested solutions.\n\nIf all the solutions do not work and your device is rooted, you can alternatively setup Island with root.</string>
+
+    <string name="tip_empty_app_list">No apps here.\nPlease switch to other view.</string>
+
+    <string name="field_app_id">APP ID: %1$s</string>
+    <string name="button_instructions_online">Instruksi (online)</string>
+    <string name="button_account_settings">Pengaturan akun</string>
+    <string name="button_have_checked">I\'ve checked</string>
+    <string name="button_setup_troubleshooting">Troubleshooting (web)</string>
+    <string name="button_setup_island_with_root">Pengaturan Island dengan root</string>
+
+    <string name="action_clone">Klon</string>
+    <string name="action_clone_back">Klon ke mainland</string>
+    <string name="action_freeze">Bekukan</string>
+    <string name="action_unfreeze">Batalkan bekukan</string>
+    <string name="action_shortcut">Create Unfreeze &amp; Launch shortcut</string>
+    <string name="action_greenify">Auto-freeze with Greenify</string>
+    <string name="action_app_settings">App settings</string>
+    <string name="action_remove">Hapus</string>
+    <string name="action_uninstall">Copot pemasangan</string>
+
+    <string name="menu_tip">Tip…</string>
+    <string name="menu_search">Pencarian</string>
+    <string name="menu_show_hidden_sys_apps">Perlihatkan aplikasi sistem tersembunyi</string>
+    <string name="menu_settings">Pengaturan</string>
+
+    <string name="dialog_title_warning">PERINGATAN</string>
+    <string name="dialog_manual_setup"><b>Untuk pengguna tingkat lanjut</b>:\nThis limitation could also be circumvented with one-time manual setup via USB-connected PC.</string>
+    <string name="dialog_encryption_required"><b>ENKRIPSI PERANGKAT</b> is required on your device to create the island, enforced by Android system prior to 7.0. Encrypting the device may degrade the overall performance on some low-end devices. Encryption can be skipped if root privilege is available and granted in the next step.</string>
+    <string name="dialog_clone_via_install_explanation">Island will now launch the Android installer to \"install\" this app in Island.\n\nAlthough it looks like the regular installation confirmation, actually it takes no extra storage space.</string>
+    <string name="dialog_clone_via_google_play_explanation">Island will now launch Google Play Store to clone this app, please then click the \"Install\" button there.\n\nAlthough it will look like the regular installation, actually it will take no extra storage space but just activates this app in Island.</string>
+    <string name="dialog_clone_via_sys_market_explanation">Island will now launch the built-in app store on your device to clone this app, please follow the regular installation procedure.\n\nATTENTION: The built-in app store on your device may or may not support Android for Work properly. In case it fails to finish the installation, please refer to the FAQ for solutions.</string>
+    <string name="dialog_clone_incapable_explanation">Sorry, Island cannot clone apps without a proper built-in app market on your device (preferable Google Play Store) until Android 5.1. Please refer to the FAQ for solutions.</string>
+    <string name="dialog_greenify_title">Integrasi Greenify</string>
+    <string name="dialog_greenify_explanation">To save memory and avoid unnecessary battery consumption, Island has no background services in design. Instead it delegates the automatic freezing job to Greenify, taking advantage of its sophisticated automatic hibernation management.</string>
+    <string name="dialog_greenify_version_too_low">Greenify needs to be upgraded to a newer version.</string>
+    <string name="dialog_reactivate_message">Island was unexpectedly deactivated, please grant the Device Admin permission to re-activate.</string>
+    <string name="dialog_destroy_message">Are you sure you want to destroy the whole Island? You will LOSE ALL THE DATA IN ISLAND.\n\nDon\'t worry, apps and data outside Island will NEVER be affected.</string>
+    <string name="dialog_destroy_exclusives_message">Since exclusively installed in Island, the following %1$d app(s) will be UNINSTALLED effectively from your device if Island is destroyed.\n\n%2$s\n\nAre you sure you want to proceed?</string>
+    <string name="dialog_deactivate_message">Are you sure to deactivate God mode?\n\nYou will have to go through the setup flow again to bring it back, that means Island space and all accounts must be removed first if your device is not rooted.</string>
+    <string name="dialog_cannot_destroy_message">To remove the whole Island space, please open system \"Settings - Accounts\" and select \"Remove work profile\".</string>
+    <string name="dialog_critical_app_warning">This app is critical for the Android system or other apps to work properly. If proceed, some apps or the whole system may become unstable or malfunctional.\n\nDo you really want to proceed?</string>
+    <string name="dialog_mainland_device_admin">Device Admin privilege is required to activate God mode.</string>
+    <string name="dialog_mainland_setup_done">God mode is now enabled. It will be activated after device reboot.</string>
+    <string name="dialog_island_setup_failed">Sorry, something went wrong in Island setup. (stage %1$d)</string>
+    <string name="dialog_activate_god_mode_additional_text">If your device is rooted, God mode can be activated now systemlessly (system partition untouched).\n\nFor non-root device, God mode could only be activated manually. Please follow the online guide for instructions.</string>
+
+    <string name="dialog_button_continue">Lanjutkan</string>
+    <string name="dialog_button_learn_more">Petunjuk lain</string>
+    <string name="dialog_button_install">Pasang</string>
+    <string name="dialog_button_upgrade">Perbarui</string>
+    <string name="dialog_button_destroy">Destroy</string>
+    <string name="dialog_button_activate">Aktifkan</string>
+    <string name="dialog_button_deactivate">Nonaktifkan</string>
+    <string name="dialog_button_reboot">Mulai ulang</string>
+
+    <string name="prompt_disable_sys_app_as_removal">System app can only be disabled. It\'s similar to the removal of an installed app.\n\nIsland has no privilege to do that, instead you will be redirected to the system settings app, there you can click the \"DISABLE\" button to proceed.</string>
+
+    <string name="toast_setup_in_progress">Island setup in progress, please wait…</string>
+    <string name="toast_successfully_cloned">%1$s is successfully cloned.</string>
+    <string name="toast_cannot_clone">Sorry, unable to clone %1$s.</string>
+    <string name="toast_already_cloned">Already cloned</string>
+    <string name="toast_shortcut_request_sent">Shortcut request is sent to launcher</string>
+    <string name="toast_shortcut_failed">Failed to create the shortcut</string>
+    <string name="toast_greenify_failed">Failed to greenify</string>
+    <string name="toast_internal_error">Sorry, an internal error occurred, please restart this app and try again.</string>
+    <string name="toast_error_freeze_failure">Failed to freeze</string>
+    <string name="toast_external_storage_permission_required">Storage permission is required to access the shared storage from within Island.</string>
+    <string name="toast_failed_to_launch_app">Sorry, there\'s an error launching this app.</string>
+    <string name="toast_setup_mainland_non_root">No root, opening online guide now.</string>
+    <string name="toast_setup_mainland_root_failed">Error activating God mode with root.</string>
+    <string name="toast_enable_install_from_unknown_source">Please enable this setting for Island to clone apps.</string>
+
+    <!-- General words -->
+    <string name="open_settings">Buka pengaturan</string>
+
+    <!-- Settings -->
+
+    <string name="settings_title">Pengaturan</string>
+
+    <string name="pref_general_header">Umum</string>
+    <string name="pref_launch_shortcut_prefix_title">Launch shortcut prefix</string>
+    <string name="pref_show_admin_message_title">Extra info in "Action not allowed" dialog</string>
+    <string name="pref_show_admin_message_summary">Show Island-specific extra information in the \"Action not allowed\" system dialog.</string>
+
+    <string name="pref_privacy_header">Proteksi privasi</string>
+    <string name="pref_privacy_notification_for_clone_title">Notification of privacy exposure</string>
+    <string name="pref_privacy_notification_for_clone_summary">Show notification for potential privacy exposure in cloned apps</string>
+
+    <string name="pref_setup_header">Setup &amp; Shutdown</string>
+    <string name="pref_setup_island_title">Island</string>
+    <string name="pref_setup_island_summary_managed">Managed</string>
+    <string name="pref_setup_island_summary_unknown">Unknown</string>
+    <string name="pref_setup_island_summary_managed_other">Existent Work profile is not managed by Island.\nClick the side icon to remove.</string>
+    <string name="pref_setup_island_summary_incomplete">Setup incomplete.\nClick the side icon to rebuild.</string>
+    <string name="pref_setup_island_summary_pending_setup">Not setup yet.\nClick the side icon to setup.</string>
+    <string name="pref_setup_mainland_title">Mainland</string>
+    <string name="pref_setup_mainland_summary_managed">Managed</string>
+    <string name="pref_setup_mainland_summary_not_managed">Unmanaged</string>
+    <string name="pref_setup_category_status">Status</string>
+    <string name="pref_setup_category_troubleshooting">Troubleshooting</string>
+    <string name="pref_setup_mainland_reprovision_title">Repair Mainland</string>
+    <string name="pref_setup_mainland_reprovision_summary">This may help to fix issues in Mainland.\nAll apps and data will be preserved.</string>
+    <string name="pref_setup_island_reprovision_title">Repair Island</string>
+    <string name="pref_setup_island_reprovision_summary">This may help to fix issues in Island.\nAll apps and data will be preserved.</string>
+
+    <string name="pref_about_header">Tentang</string>
+    <string name="pref_about_version_title">Versi</string>
+    <string name="pref_about_licenses_title">Lisensi</string>
+
+    <string name="notification_island_after_uninstall_title">Remove Island completely</string>
+    <string name="notification_island_after_uninstall_text">Destroy the Island and remove all apps and data within?</string>
+    <string name="notification_action_restore">Pulihkan</string>
+
+    <!-- New User Guide -->
+
+    <string name="prompt_freeze_title">Freeze app in Island</string>
+    <string name="prompt_freeze_text">Once frozen, the app in Island will vanish until being explicit unfrozen.\n\nApp could do absolutely nothing in frozen state.</string>
+    <string name="prompt_clone_title">Clone app to Island</string>
+    <string name="prompt_clone_text">App in mainland can be cloned into Island.\n\nThe clone acts as a newly installed instance and has its own data, separated from its mainland twin. They only share the executable binaries to conserve space.</string>
+
+    <!-- Tip cards -->
+
+    <string name="tip_action_ignore">Abaikan</string>
+    <string name="tip_critical_package_required">Critical app (or component) required</string>
+    <string name="tip_critical_package_message">\"%1$s\" is a critical system component required inside Island for Android system to work properly.\n\nTake action now to avoid unexpected app or system malfunction.</string>
+
+</resources>
